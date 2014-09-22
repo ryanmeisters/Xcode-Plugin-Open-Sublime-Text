@@ -1,0 +1,53 @@
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Generated files
+*.o
+*.pyc
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
+\#*#
+.#*
+docset-installed.txt
+
+
+## ANDROID
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IVY
+ivy.jar
+Command/distrib/jars/*-ui-*.jar
+Command/distrib/zips
+Command/lib/noexternaljar
+Command/lib/test
+Command/lib/withexternaljar

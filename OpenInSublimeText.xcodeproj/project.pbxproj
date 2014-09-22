@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9425046019C951C700C01AF5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9425045F19C951C700C01AF5 /* AppKit.framework */; };
+		9425046219C951C700C01AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9425046119C951C700C01AF5 /* Foundation.framework */; };
+		9425046819C951C700C01AF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9425046619C951C700C01AF5 /* InfoPlist.strings */; };
+		9425046B19C951C700C01AF5 /* OSTOpenInSublimeText.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425046A19C951C700C01AF5 /* OSTOpenInSublimeText.m */; };
+		942B6A1A19C96EE00093E988 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942B6A1819C96EDF0093E988 /* IDEFoundation.framework */; };
+		942B6A1B19C96EE00093E988 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942B6A1919C96EE00093E988 /* IDEKit.framework */; };
+		942B6A2419C974B60093E988 /* OSTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 942B6A2319C974B60093E988 /* OSTUtil.m */; };
+		942B6A2719C975B90093E988 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942B6A2519C975B90093E988 /* DVTFoundation.framework */; };
+		942B6A2819C975B90093E988 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942B6A2619C975B90093E988 /* DVTKit.framework */; };
+		94BFCA4019CE577A00EA7232 /* NSTextStorage+VimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFCA3F19CE577A00EA7232 /* NSTextStorage+VimOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9422F5CE19CF7BD3006F70FA /* BumpBuild.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BumpBuild.sh; sourceTree = "<group>"; };
+		9425045C19C951C700C01AF5 /* OpenInSublimeText.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenInSublimeText.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		9425045F19C951C700C01AF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9425046119C951C700C01AF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9425046519C951C700C01AF5 /* OpenInSublimeText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenInSublimeText-Info.plist"; sourceTree = "<group>"; };
+		9425046719C951C700C01AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9425046919C951C700C01AF5 /* OSTOpenInSublimeText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSTOpenInSublimeText.h; sourceTree = "<group>"; };
+		9425046A19C951C700C01AF5 /* OSTOpenInSublimeText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSTOpenInSublimeText.m; sourceTree = "<group>"; };
+		9425046C19C951C700C01AF5 /* OpenInSublimeText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInSublimeText-Prefix.pch"; sourceTree = "<group>"; };
+		942B6A1819C96EDF0093E988 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		942B6A1919C96EE00093E988 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		942B6A1C19C9705A0093E988 /* IDEFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
+		942B6A1D19C9705A0093E988 /* IDEKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEKit.h; sourceTree = "<group>"; };
+		942B6A2219C974B60093E988 /* OSTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTUtil.h; sourceTree = "<group>"; };
+		942B6A2319C974B60093E988 /* OSTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTUtil.m; sourceTree = "<group>"; };
+		942B6A2519C975B90093E988 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		942B6A2619C975B90093E988 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		942B6A2919C976160093E988 /* DVTFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		942B6A2A19C976160093E988 /* DVTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTKit.h; sourceTree = "<group>"; };
+		94BFCA3E19CE577A00EA7232 /* NSTextStorage+VimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextStorage+VimOperation.h"; sourceTree = "<group>"; };
+		94BFCA3F19CE577A00EA7232 /* NSTextStorage+VimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextStorage+VimOperation.m"; sourceTree = "<group>"; };
+		94BFCA4119CE596400EA7232 /* XVimStringBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XVimStringBuffer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9425045919C951C700C01AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942B6A1A19C96EE00093E988 /* IDEFoundation.framework in Frameworks */,
+				942B6A2719C975B90093E988 /* DVTFoundation.framework in Frameworks */,
+				942B6A2819C975B90093E988 /* DVTKit.framework in Frameworks */,
+				9425046019C951C700C01AF5 /* AppKit.framework in Frameworks */,
+				942B6A1B19C96EE00093E988 /* IDEKit.framework in Frameworks */,
+				9425046219C951C700C01AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9425045319C951C600C01AF5 = {
+			isa = PBXGroup;
+			children = (
+				9425046319C951C700C01AF5 /* OpenInSublimeText */,
+				9425045E19C951C700C01AF5 /* Frameworks */,
+				9425045D19C951C700C01AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9425045D19C951C700C01AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9425045C19C951C700C01AF5 /* OpenInSublimeText.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9425045E19C951C700C01AF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942B6A2519C975B90093E988 /* DVTFoundation.framework */,
+				942B6A2619C975B90093E988 /* DVTKit.framework */,
+				942B6A1819C96EDF0093E988 /* IDEFoundation.framework */,
+				942B6A1919C96EE00093E988 /* IDEKit.framework */,
+				9425045F19C951C700C01AF5 /* AppKit.framework */,
+				9425046119C951C700C01AF5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9425046319C951C700C01AF5 /* OpenInSublimeText */ = {
+			isa = PBXGroup;
+			children = (
+				94BFCA4119CE596400EA7232 /* XVimStringBuffer.h */,
+				94BFCA3E19CE577A00EA7232 /* NSTextStorage+VimOperation.h */,
+				94BFCA3F19CE577A00EA7232 /* NSTextStorage+VimOperation.m */,
+				9425046919C951C700C01AF5 /* OSTOpenInSublimeText.h */,
+				9425046A19C951C700C01AF5 /* OSTOpenInSublimeText.m */,
+				942B6A2219C974B60093E988 /* OSTUtil.h */,
+				942B6A2319C974B60093E988 /* OSTUtil.m */,
+				942B6A2119C974230093E988 /* Headers */,
+				9425046419C951C700C01AF5 /* Supporting Files */,
+			);
+			path = OpenInSublimeText;
+			sourceTree = "<group>";
+		};
+		9425046419C951C700C01AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9422F5CE19CF7BD3006F70FA /* BumpBuild.sh */,
+				9425046619C951C700C01AF5 /* InfoPlist.strings */,
+				9425046519C951C700C01AF5 /* OpenInSublimeText-Info.plist */,
+				9425046C19C951C700C01AF5 /* OpenInSublimeText-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		942B6A2119C974230093E988 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				942B6A1C19C9705A0093E988 /* IDEFoundation.h */,
+				942B6A2919C976160093E988 /* DVTFoundation.h */,
+				942B6A2A19C976160093E988 /* DVTKit.h */,
+				942B6A1D19C9705A0093E988 /* IDEKit.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9425045B19C951C700C01AF5 /* OpenInSublimeText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9425046F19C951C700C01AF5 /* Build configuration list for PBXNativeTarget "OpenInSublimeText" */;
+			buildPhases = (
+				9425045819C951C700C01AF5 /* Sources */,
+				9422F5D019CF7BEE006F70FA /* Increment Build Number */,
+				9425045919C951C700C01AF5 /* Frameworks */,
+				9425045A19C951C700C01AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenInSublimeText;
+			productName = OpenInSublimeText;
+			productReference = 9425045C19C951C700C01AF5 /* OpenInSublimeText.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9425045419C951C700C01AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OST;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ryan M";
+			};
+			buildConfigurationList = 9425045719C951C700C01AF5 /* Build configuration list for PBXProject "OpenInSublimeText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9425045319C951C600C01AF5;
+			productRefGroup = 9425045D19C951C700C01AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9425045B19C951C700C01AF5 /* OpenInSublimeText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9425045A19C951C700C01AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9425046819C951C700C01AF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9422F5D019CF7BEE006F70FA /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = OpenInSublimeText/BumpBuild.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9425045819C951C700C01AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942B6A2419C974B60093E988 /* OSTUtil.m in Sources */,
+				94BFCA4019CE577A00EA7232 /* NSTextStorage+VimOperation.m in Sources */,
+				9425046B19C951C700C01AF5 /* OSTOpenInSublimeText.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9425046619C951C700C01AF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9425046719C951C700C01AF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9425046D19C951C700C01AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9425046E19C951C700C01AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9425047019C951C700C01AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenInSublimeText/OpenInSublimeText-Prefix.pch";
+				INFOPLIST_FILE = "OpenInSublimeText/OpenInSublimeText-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		9425047119C951C700C01AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenInSublimeText/OpenInSublimeText-Prefix.pch";
+				INFOPLIST_FILE = "OpenInSublimeText/OpenInSublimeText-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9425045719C951C700C01AF5 /* Build configuration list for PBXProject "OpenInSublimeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9425046D19C951C700C01AF5 /* Debug */,
+				9425046E19C951C700C01AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9425046F19C951C700C01AF5 /* Build configuration list for PBXNativeTarget "OpenInSublimeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9425047019C951C700C01AF5 /* Debug */,
+				9425047119C951C700C01AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9425045419C951C700C01AF5 /* Project object */;
+}
