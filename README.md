@@ -11,6 +11,9 @@ Open In Sublime Text is a simple xcode plugin to quickly open a source file in S
 #Installation
 1. Install the plugin. This can be done in 2 ways:
 
-    1. Clone this repository, open `OpenInSublimeText.xcodeproj`, build, and restart xcode
-    2. [Alcatraz](http://alcatraz.io) -- should be available soon
+    1. Install [Alcatraz](http://alcatraz.io) and search for `OpenInSublimeText`, or
+    2. Clone this repository, open `OpenInSublimeText.xcodeproj`, build, and restart xcode
 2. Assign a keyboard shortcut to `Open In Sublime Text` for Xcode in the OSX Keyboard System Preferences. 
+
+-----
+Tested in Xcode 5.1.1 and Xcode 6.0.1
