@@ -16,4 +16,7 @@ Open In Sublime Text is a simple xcode plugin to quickly open a source file in S
 2. Assign a keyboard shortcut to `Open In Sublime Text` for Xcode in the OSX Keyboard System Preferences. 
 
 -----
-Tested in Xcode 5.1.1 +
+Tested in Xcode 5.1.1 + with Sublime Text 3
+
+###Known Limitations
+- This plugin assumes the existence of `/Applications/Sublime Text.app` (the default for Sublime Text 3), and there is not currently a way to override that assumption.
