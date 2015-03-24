@@ -27,7 +27,7 @@
 		9425046519C951C700C01AF5 /* OpenInSublimeText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenInSublimeText-Info.plist"; sourceTree = "<group>"; };
 		9425046719C951C700C01AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9425046919C951C700C01AF5 /* OSTOpenInSublimeText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSTOpenInSublimeText.h; sourceTree = "<group>"; };
-		9425046A19C951C700C01AF5 /* OSTOpenInSublimeText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSTOpenInSublimeText.m; sourceTree = "<group>"; };
+		9425046A19C951C700C01AF5 /* OSTOpenInSublimeText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSTOpenInSublimeText.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		9425046C19C951C700C01AF5 /* OpenInSublimeText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInSublimeText-Prefix.pch"; sourceTree = "<group>"; };
 		942B6A1819C96EDF0093E988 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
 		942B6A1919C96EE00093E988 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };

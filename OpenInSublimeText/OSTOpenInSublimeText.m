@@ -88,7 +88,7 @@ static NSString * const kOSTMenuItemTitle = @"Open In Sublime Text";
 - (void) addOSTMenuItemToMenu:(NSMenu *)menu {
     
     [menu addItem:[NSMenuItem separatorItem]];
-    NSMenuItem *ostMenuItem = [[NSMenuItem alloc] initWithTitle:kOSTMenuItemTitle action:@selector(menuItemClicked) keyEquivalent:@"s"];
+    NSMenuItem *ostMenuItem = [[NSMenuItem alloc] initWithTitle:kOSTMenuItemTitle action:@selector(menuItemClicked) keyEquivalent:@""];
     [ostMenuItem setTarget:self];
     [menu addItem:ostMenuItem];
 }
@@ -112,7 +112,7 @@ static NSString * const kOSTMenuItemTitle = @"Open In Sublime Text";
         
         NSTask *task = [[NSTask alloc] init];
         
-        task.launchPath = @"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl";
+        task.launchPath = @"/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2";
         
         task.arguments = @[path, @"--wait"];
         
