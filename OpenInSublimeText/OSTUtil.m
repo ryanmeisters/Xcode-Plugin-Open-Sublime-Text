@@ -14,9 +14,20 @@
 
 
 IDEWorkspaceWindowController* OSTLastActiveWindowController(){
+    
+    static IDEWorkspaceWindowController* workspace;
+    
+    if ([[IDEWorkspaceWindow class] respondsToSelector:@selector(lastActiveWorkspaceWindow)])
+    {
+        //for Xcode6.3
+        workspace = [IDEWorkspaceWindow performSelector:@selector(lastActiveWorkspaceWindow)];
+    }
+    else if([[IDEWorkspaceWindow class] respondsToSelector:@selector(lastActiveWorkspaceWindowController)])
+    {
+        workspace = [IDEWorkspaceWindow performSelector:@selector(lastActiveWorkspaceWindowController)];
+    }
 
-    // TODO: Must update IDEKit.h for Xcodr5
-    return [IDEWorkspaceWindow performSelector:@selector(lastActiveWorkspaceWindowController)];
+    return workspace;
 }
 
 IDEWorkspaceTabController* OSTLastActiveWorkspaceTabController(){
@@ -32,5 +43,8 @@ DVTSourceTextView* OSTLastActiveSourceView(){
 }
 
 @implementation OSTUtil
+
+
+
 
 @end
