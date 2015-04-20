@@ -112,7 +112,12 @@ static NSString * const kOSTMenuItemTitle = @"Open In Sublime Text";
         
         NSTask *task = [[NSTask alloc] init];
         
-        task.launchPath = @"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl";
+        task.launchPath = @"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"; // Sublime Text 3
+        
+        if(![[NSFileManager defaultManager] isExecutableFileAtPath:task.launchPath])
+        {
+            task.launchPath = @"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"; // Sublime Text 2
+        }
         
         task.arguments = @[path, @"--wait"];
         
