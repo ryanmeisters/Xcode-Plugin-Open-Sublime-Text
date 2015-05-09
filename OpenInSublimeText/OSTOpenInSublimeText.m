@@ -119,7 +119,7 @@ static NSString * const kOSTMenuItemTitle = @"Open In Sublime Text";
             task.launchPath = @"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"; // Sublime Text 2
         }
         
-        task.arguments = @[path, @"--wait"];
+        task.arguments = @[path, @"--wait", @"--new-window"];
         
         task.terminationHandler = ^(NSTask *aTask){
             // dispatch_async(dispatch_get_main_queue(), ^{
