@@ -4,6 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Added
+- 
+
+## [1.3.0] - 2015-05-29
+### Added
+- subl invocation uses --new-window flag
+
+## [1.2.0] - 2015-04-27
+### Added
 - Sublime Text 2 Support
 
 ## [1.1.0] - 2015-04-19
