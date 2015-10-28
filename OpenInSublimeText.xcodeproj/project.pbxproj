@@ -157,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OST;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ryan M";
 			};
 			buildConfigurationList = 9425045719C951C700C01AF5 /* Build configuration list for PBXProject "OpenInSublimeText" */;
@@ -247,6 +247,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -315,6 +316,7 @@
 				GCC_PREFIX_HEADER = "OpenInSublimeText/OpenInSublimeText-Prefix.pch";
 				INFOPLIST_FILE = "OpenInSublimeText/OpenInSublimeText-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rhm.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -335,6 +337,7 @@
 				GCC_PREFIX_HEADER = "OpenInSublimeText/OpenInSublimeText-Prefix.pch";
 				INFOPLIST_FILE = "OpenInSublimeText/OpenInSublimeText-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rhm.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
