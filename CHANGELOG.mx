@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 -
 
+## [1.4.3] - 2015-12-31
+### Added
+- Support for Xcode 7.2
+
 ## [1.4.1] - 2015-07-09
 ### Added
 - DVTPlugInCompatibilityUUIDs for Xcode 6.4 and 7 beta
